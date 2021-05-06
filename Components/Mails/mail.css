@@ -1,0 +1,90 @@
+
+#author{
+  padding: 3px;
+}
+
+#unread_msg{
+  text-indent:3em;
+  font-weight: bold;
+}
+
+
+
+
+
+.modal1 {
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110%;
+  border: 1px solid gray;
+  background: white;
+}
+.modal1 > .header {
+  width: 100%;
+
+
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal1 > .content {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.modal1 > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal1 > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+
+
+
+
+
+.confirm_button {
+  transition-duration: 0.4s;
+}
+
+.confirm_button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  cursor: pointer;
+}
+
+.deny_button {
+  transition-duration: 0.4s;
+}
+
+.deny_button:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.open_button {
+  transition-duration: 0.4s;
+  background-color: yellow;
+}
+
+.open_button:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
